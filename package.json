@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Sandyvkrish/CodeView/issues"
   },
-  "homepage": "https://github.com/Sandyvkrish/CodeView#readme"
+  "homepage": "https://github.com/Sandyvkrish/CodeView#readme",
+  "dependencies": {
+    "@clerk/clerk-react": "^5.61.6"
+  }
 }
