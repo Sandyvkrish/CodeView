@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
-import {ENV} from "./env.js";
+import { ENV } from "./env.js";
 
-export const connectDB = async() => {
-try{
+export const connectDB = async () => {
+try {
     if (!ENV.DB_URL){
         throw new Error("DB_URL is nor defined in environment varaibles");
     }
