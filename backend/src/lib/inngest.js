@@ -44,6 +44,6 @@ const deleteUserFromDB = inngest.createFunction(
     await User.deleteOne({ clerkId: id });
 
    await deleteStreamUser(id.toString());
-  }
+   }
 );
 export const functions = [syncUser, deleteUserFromDB];
