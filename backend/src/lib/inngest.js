@@ -23,7 +23,7 @@ const newUser = {
     profileImage: image_url
 }
 
-  await User.create(newUser)
+  await User.create(newUser) 
     
   // here to do
   await upsertStreamUser({
@@ -32,6 +32,7 @@ const newUser = {
      image: newUser.profileImage
 
     })
+    // need to create welcome email here later.
     }
 );
 const deleteUserFromDB = inngest.createFunction(
