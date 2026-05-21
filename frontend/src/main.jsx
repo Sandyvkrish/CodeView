@@ -6,7 +6,6 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router';
 import {
   QueryClient,
-  QueryClient,
   QueryClientProvider,
   useQuery,
 } from '@tanstack/react-query'
