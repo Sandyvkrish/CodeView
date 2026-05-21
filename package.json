@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Sandyvkrish/CodeView#readme",
   "dependencies": {
     "@clerk/clerk-react": "^5.61.6",
+    "react-router": "^7.9.4",
     "stream-chat": "^9.24.0"
   }
 }
